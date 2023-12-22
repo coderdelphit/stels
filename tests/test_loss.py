@@ -16,7 +16,15 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
+# import os
+import unittest
+import math
 
+import numpy as np
+
+from spinorama.filter_iir import Biquad
+from spinorama.filter_peq import peq_spl
+from spinorama.auto_loss import loss
 # import os
 import unittest
 import math
